@@ -8,8 +8,13 @@ public class MainConvert {
 
     }
 
-    public static void createCurrency(String[] args) {
-        if (args[])
+    public static void createCurrency(int numb) {
+        Currency[] currencies = new Currency[] {
+            new Dollar(),
+                new Evro(),
+                new Ruble()
+        };
+
     }
 
 }
