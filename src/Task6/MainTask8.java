@@ -8,9 +8,9 @@ public class MainTask8 {
 
     public static int pow1(int a, int b) {
         int i = 1;
-        int  c = 0;
-        while (i <= b) {
-          c = a * a;
+        int  c = a;
+        while (i <  b) {
+          c = c * a;
             i++;
         }
         return c;
